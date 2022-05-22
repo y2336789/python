@@ -1,6 +1,3 @@
-from sklearn.preprocessing import binarize
-
-
 t = int(input())
 
 for _ in range(t):
@@ -9,4 +6,3 @@ for _ in range(t):
     for i in range(len(data)):
         if data[-i-1] == '1':
             print(i, end=' ')
-         
