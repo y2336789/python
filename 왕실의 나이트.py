@@ -1,8 +1,8 @@
 input_data = input()
 
 row = int(input_data[1])
-column = ord(input_data[0]) - ord('a') + 1
-
+column = ord(input_data[0]) - ord('a') + 1 # 문자열의 첫번재 알파벳 - ord('a) + 1 -> 첫 번째 칸이 1부터 시작하기 때문
+# ord('a') = 97 ord('A') = 65
 steps = [(-2, -1), (-2, 1), (2, -1), (2, 1), (-1, -2), (-1, 2), (1, -2), (1, 2)]
 
 count = 0
